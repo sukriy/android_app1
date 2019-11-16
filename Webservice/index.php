@@ -11,6 +11,6 @@
 			"username"		=> $row['username']
 		));
 	}
-	pre(json_encode(array('nilai'=>$nilai)));
+	// pre(json_encode(array('nilai'=>$nilai)));
 
 	mysqli_close($con);
